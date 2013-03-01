@@ -1,13 +1,13 @@
 <div class="center hero-unit">
-  <h1>Welcome to the Sample App</h1>
+  
+  <%= link_to image_tag("privacy_chirp.gif", alt: "Chirper", style: "float: left"), 'http://www.urbandictionary.com/define.php?term=Chirper' %>
+
+  <h1>Welcome to Chirper!</h1>
 
   <h2>
-    This is the home page for the
-    <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
-    sample application.
+    Chirper is a short message communication system. A social fun cocktail party powered by Rails.
   </h2>
 
   <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
 </div>
 
-<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
